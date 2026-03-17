@@ -1,0 +1,37 @@
+# Dataset Documentation
+
+## Data Source & Methodology
+
+**Primary Source:** S&P Capital IQ  
+**Period:** 2010-2023 (14 years)  
+**Sector:** Technology  
+**Geographic Focus:** Emerging Asian Markets  
+**Sample Size:** [X firms / Y M&A transactions]
+
+## Variable Dictionary
+
+See `data_dictionary.xlsx` for complete variable definitions including:
+- Financial metrics (ROA, ROE, gross profit)
+- M&A indicators (deal value, post-M&A year dummy)
+- Cultural variables (cultural distance proxy, country pairings)
+- Control variables (firm size, leverage, market concentration)
+
+## Data Limitations
+
+- Data availability varies by country and firm size
+- Some entries excluded due to missing values
+- Cultural distance computed using Hofstede dimensions
+- Emerging Asia definition per [World Bank/IMF classification]
+
+## Confidentiality
+
+Raw data not included (proprietary S&P Capital IQ licensing).  
+Researchers can access via institutional license.
+
+## Citation
+
+If using processed data/methodology:
+```
+Kulkarni, S. (2024). M&A Performance Dataset — Emerging Asian Technology Sector.
+Data collected from S&P Capital IQ via Queen Mary University of London.
+```
